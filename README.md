@@ -1,5 +1,5 @@
 # react-speedy-toast
-![React Speedy Toast Preview](https://res-console.cloudinary.com/dhlslqwwl/media_explorer_thumbnails/0d46a5db5b37e29be80a9fa7e746cec5/detailed)
+![React Speedy Toast Preview](src/assets/toast-preview.png)
 
 A lightweight and customizable React toast notification library for elegant and user-friendly alerts.
 
