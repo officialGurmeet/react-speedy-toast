@@ -1,6 +1,6 @@
 {
   "name": "react-speedy-toast",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -8,8 +8,17 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/officialGurmeet/react-speedy-toast.git"
+  },
   "author": "Gurmeet singh",
-  "keywords": ["react", "toast", "notification", "ui"],
+  "keywords": [
+    "react",
+    "toast",
+    "notification",
+    "ui"
+  ],
   "license": "ISC",
   "description": "A lightweight and customizable React toast notification library for elegant and user-friendly alerts.",
   "devDependencies": {
@@ -17,17 +26,23 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
+
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+
     "tslib": "^2.8.1",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.14",
+    "@rollup/plugin-url": "^8.0.2",
+
     "@types/react": "^19.0.11",
     "rollup": "^4.36.0",
-    "rollup-plugin-postcss": "^4.0.2",
-    "tailwindcss": "^4.0.14"
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-rebase": "^4.1.1"
   }
 }
