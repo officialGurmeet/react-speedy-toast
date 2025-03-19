@@ -29,10 +29,16 @@ export default [
       peerDepsExternal(),
       resolve(),
       commonjs(),
-      postcss(),
+      postcss({
+        extensions: ['.css'],
+        extract: 'Toast.css', 
+        inject: false,
+       
+      }),
       rebase({
         assetFolder: 'assets',
         keepName: true,
+        exclude: ['**/*.css'],
       }),
       typescript({ tsconfig: "./tsconfig.json" }),
       terser(),

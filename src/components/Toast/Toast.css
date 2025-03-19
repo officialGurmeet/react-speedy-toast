@@ -46,10 +46,13 @@
   
   .toast-title {
     font-weight: bold;
+    margin: 0;
   }
   
   .toast-message {
     font-size: 0.875rem;
+    margin-top: 3px;
+    margin-bottom: 0;
   }
   
   .toast-progress {
@@ -77,6 +80,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    border: none;
+    color: white;
+    padding: 3px;
   }
   
   .close-btn-success { background: #2C7721; }
